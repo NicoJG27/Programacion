@@ -16,5 +16,6 @@ public class Ejercicio3 {
         System.out.println("\033[48;5;11m" + pulgadas + " pulgadas \033[0m");
         System.out.println("\033[48;5;10m" + pies + " pies \033[0m");
         System.out.println("\033[48;5;9m" + yardas + " yardas \033[0m");
+        sc.close();
     }
 }
