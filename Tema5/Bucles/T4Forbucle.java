@@ -1,4 +1,4 @@
-package Tema4.Bucles;
+package Tema5.Bucles;
 
 public class T4Forbucle {
     public static void main(String[] args) {

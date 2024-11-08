@@ -1,4 +1,4 @@
-package Tema4.Bucles;
+package Tema5.Bucles;
 
 import java.util.Scanner;
 
