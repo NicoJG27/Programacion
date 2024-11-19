@@ -9,8 +9,8 @@ public class Ejercicio9Fibonacci {
         int numero = 0;
         final int PRIMERO = 0;
         final int SEGUNDO = 1;
-        int ultimo = 0;
-        int penultimo = 1;
+        int ultimo = SEGUNDO;
+        int penultimo = PRIMERO;
         int aux = 0;
 
 
@@ -29,7 +29,7 @@ public class Ejercicio9Fibonacci {
         try {
             //Lee el número de teclado
             System.out.print("\033[1mN PRIMEROS NÚMEROS DE LA SERIE DE FIBONACCI\033[0m");
-            System.out.print("Introduzca un número ");
+            System.out.print("Introduzca un número: ");
             numero = sc.nextInt();
 
 
